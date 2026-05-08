@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "samahbot"
+version = "1.0.0"
+description = "A safe emotional bridge between people — Telegram bot for apologies and reconciliation."
+requires-python = ">=3.11"
+dependencies = [
+    "python-telegram-bot[ext]>=21.5",
+    "aiosqlite>=0.20.0",
+    "sqlalchemy[asyncio]>=2.0.35",
+    "alembic>=1.13.2",
+    "python-dotenv>=1.0.1",
+    "httpx>=0.27.2",
+    "openai>=1.51.0",
+]

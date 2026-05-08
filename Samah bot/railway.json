@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/railwayconfig.json",
+  "build": {
+    "builder": "dockerfile",
+    "dockerfilePath": "Dockerfile"
+  },
+  "deploy": {
+    "restartPolicyType": "always"
+  }
+}
